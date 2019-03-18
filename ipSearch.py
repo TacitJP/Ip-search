@@ -62,9 +62,6 @@ class Ui_Form(object):
                                                         "城市: " + dircTransfor['city'] + "\n"
                                                         "县: " + dircTransfor['county'] + "\n"
                                                         "运营商: " +dircTransfor['isp'] + "\n"
-                                                        "\n"
-                                                        "\n"
-                                                        "查询成功，公众号【e葫芦画瓢】"
                                                        ))
         else:
             self.plainTextEdit.setPlainText(_translate("Form", "服务器连接不稳定请重试"))
